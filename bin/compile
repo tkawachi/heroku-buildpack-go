@@ -155,6 +155,7 @@ fi
 unset GIT_DIR # unset git dir or it will mess with goinstall
 cd $p
 ls ../../../../../../
+ls -R ../../../../../../.apt/usr/include
 
 if test -e $build/Godeps
 then
