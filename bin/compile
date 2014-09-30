@@ -140,6 +140,8 @@ then
             export "$cgo_opt=$(cat "$env_dir/$cgo_opt")"
         fi
     done
+    echo $CGO_CPPFLAGS
+    echo $CGO_LDFLAGS
 fi
 
 FLAGS=(-tags heroku)
